@@ -11,15 +11,18 @@ body {
     margin: 0;
     font-family: 'roboto';
     background: linear-gradient(rgba(33, 33, 33, 0.9), rgba(0, 0, 0, 0.55)),
-        url('/img/nature.jpg') center/cover no-repeat;
+        url('./img/nature.jpg') center/cover no-repeat;
 
 }
 
-p, h1, h2, h3 {
-background-color: rgba(0, 0, 0, 0.37);
-border-radius: 5px;
-display: inline-block;
-padding: 5px;
+p,
+h1,
+h2,
+h3 {
+    background-color: rgba(0, 0, 0, 0.37);
+    border-radius: 5px;
+    display: inline-block;
+    padding: 5px;
 }
 
 .container {
@@ -28,7 +31,7 @@ padding: 5px;
     text-align: center;
     padding: 20px 0 50px;
     background: linear-gradient(rgba(33, 33, 33, 0.55), rgba(0, 0, 0, 0.55)),
-        url('/img/nature.jpg') center/cover no-repeat fixed;
+        url('./img/nature.jpg') center/cover no-repeat fixed;
 }
 
 /* --------- header-------------------- */
@@ -98,7 +101,7 @@ padding: 5px;
     justify-content: start;
 }
 
-.about__desc-title{
+.about__desc-title {
     margin: 0;
 }
 
