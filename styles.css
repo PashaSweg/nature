@@ -1,0 +1,132 @@
+@font-face {
+    font-family: roboto;
+    src: url('/font/Roboto_Condensed-Regular.woff2');
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: 'roboto';
+    background: linear-gradient(rgba(33, 33, 33, 0.9), rgba(0, 0, 0, 0.55)),
+        url('/img/nature.jpg') center/cover no-repeat;
+
+}
+
+p, h1, h2, h3 {
+background-color: rgba(0, 0, 0, 0.37);
+border-radius: 5px;
+display: inline-block;
+padding: 5px;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 1200px;
+    text-align: center;
+    padding: 20px 0 50px;
+    background: linear-gradient(rgba(33, 33, 33, 0.55), rgba(0, 0, 0, 0.55)),
+        url('/img/nature.jpg') center/cover no-repeat fixed;
+}
+
+/* --------- header-------------------- */
+.header {
+    max-width: 700px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 10px;
+}
+
+.header__title {
+    color: #fff;
+}
+
+.header__sub-title {
+    color: #fff;
+}
+
+.header__preview {
+    width: 100%;
+    max-width: 600px;
+    height: 350px;
+    border: 2px solid white;
+    border-radius: 8px;
+    object-fit: cover;
+}
+
+/* ------------ main ------------------ */
+
+.about {
+    margin: 0 auto;
+    max-width: 600px;
+    padding: 0 10px;
+}
+
+.about__title {
+    color: #fff;
+}
+
+.about__content {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 15px;
+
+}
+
+.about__preview {
+    width: 300px;
+    height: 250px;
+    object-fit: cover;
+    border: 2px solid white;
+    border-radius: 8px;
+
+}
+
+.about__description {
+    color: #fff;
+    width: 260px;
+    text-align: left;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+}
+
+.about__desc-title{
+    margin: 0;
+}
+
+/* --------section photos------------- */
+
+.photos {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+
+.photos__title {
+    color: #fff;
+}
+
+.photos__wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.photos__item {
+    width: 100%;
+    max-width: 360px;
+    height: 250px;
+    object-fit: cover;
+    border: 2px solid white;
+    border-radius: 8px;
+}
